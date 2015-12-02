@@ -3,7 +3,6 @@
 use warnings;
 use strict;
 
-#my $filename = "temp.csv";
 my $filename = "dup_etaxonomy.csv";
 
 open( my $fh => $filename) || die "Cannot open $filename: $!";
